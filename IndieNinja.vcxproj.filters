@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphics 2D">
+      <UniqueIdentifier>{f10780fe-7796-4b81-95d3-7e00b9b42f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c1afc9fe-e112-44a0-b370-ec0383aed433}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Graphics 2D\Image.cpp">
+      <Filter>Graphics 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics 2D\Renderer2D.cpp">
+      <Filter>Graphics 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics 2D\Image.h">
+      <Filter>Graphics 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics 2D\stb_image.h">
+      <Filter>Graphics 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics 2D\Renderer2D.h">
+      <Filter>Graphics 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Application.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
